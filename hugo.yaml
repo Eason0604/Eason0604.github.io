@@ -1,0 +1,206 @@
+baseURL: "https://eason0604.github.io/"
+languageCode: "zh-tw"
+title: "Eason0604 Blog"
+theme: "hugo-profile"
+
+defaultContentLanguage: "zh-tw"
+
+languages:
+  zh-tw:
+    languageName: "繁體中文"
+    weight: 1
+    contentDir: "content"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+  page:
+    - HTML
+    - RSS
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 10
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "Eason0604 Blog"
+  description: "Eason0604 Blog wow"
+
+  favicon: "/fav.png"
+
+  useBootstrapCDN: false
+
+  animate: true
+
+  mathjax: false
+
+  theme:
+    defaultTheme: "dark"
+
+  navbar:
+    showBrandLogo: false
+
+    brandName: "Eason0604's Blog"
+
+    disableSearch: false
+
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+
+    menus:
+      disableAbout: false
+      disableExperience: true
+      disableEducation: true
+      disableProjects: false
+      disableAchievements: true
+      disableContact: false
+
+  hero:
+    enable: true
+
+    intro: "哈囉，我是"
+
+    title: "Eason0604"
+
+    subtitle: "目前什麼都沒有"
+
+    content: >
+      部落格
+      
+      
+      
+
+    image: "/images/Eason0604.jpg"
+
+    button:
+      enable: false
+      name: "閱讀文章"
+      url: "/blogs"
+      download: false
+      newPage: false
+
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/eason0604
+
+  about:
+    enable: true
+
+    title: "關於我"
+
+    image: "/images/Eason_with_Kirby.png"
+
+    content: |-
+      歡迎來到 Eason0604 Blog。
+
+      這個網站主要用來記錄：
+
+      - AI 學習與實作
+      - 程式設計筆記
+      - 技術研究心得
+      - 開發工具分享
+      - 工作與學習紀錄
+
+      我之後可能會分享內容，
+      但不是現在。
+
+    skills:
+      enable: true
+
+      title: "目前關注的課程"
+
+      items:
+        - "Calculus"
+        - "Linear Algebra"
+        - "Python"
+        - "GitHub"
+        - "Linux"
+        - "R Language"
+        - "CTF"
+        - "???"
+
+  experience:
+    enable: false
+
+  education:
+    enable: false
+
+  achievements:
+    enable: false
+
+  projects:
+    enable: true
+
+    items:
+      - title: "AI 學習筆記"
+        content: "整理 AI 工具、模型與實作經驗。"
+        image: "/images/projects/profile.png"
+
+      - title: "程式設計筆記"
+        content: "記錄開發過程中的問題與解法。"
+        image: "/images/projects/profile2.jpg"
+
+      - title: "CTF經驗分享"
+        content: "分享CTF從入門到放棄。"
+        image: "/images/projects/converter.jpg"
+
+  contact:
+    enable: false
+
+    content: >
+      如果有技術交流、合作機會、
+      或對文章內容有任何想法，
+      歡迎與我聯繫。
+
+    btnName: "寄送 Email"
+
+    btnLink: "mailto:your@email.com"
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 5
+      title: "最新文章"
+      enable: true
+      disableFeaturedImage: false
+
+    socialNetworks:
+      github: https://github.com/eason0604
+
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    socialShare: true
+
+    readTime:
+      enable: true
+      content: "分鐘閱讀"
+
+    scrollprogress:
+      enable: true
+
+    tags:
+      openInNewTab: true
+
+  terms:
+    read: "閱讀更多"
+    toc: "文章目錄"
+    copyright: "版權所有"
+    emailText: "分享此網站"
+
+  datesFormat:
+    article: "2006-01-02"
+    articleList: "2006-01-02"
+    articleRecent: "2006-01-02"
