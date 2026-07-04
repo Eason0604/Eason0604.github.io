@@ -35,7 +35,7 @@ params:
   title: "Eason0604 Blog"
   description: "Eason0604 Blog wow"
 
-  favicon: "/fav.png"
+  favicon: "/images/Eason0604.jpg"
 
   useBootstrapCDN: false
 
