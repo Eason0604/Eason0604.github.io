@@ -102,33 +102,25 @@ params:
     image: "/images/Eason_with_Kirby.png"
 
     content: |-
-      歡迎來到 Eason0604 Blog。
+      技術領域：
 
-      這個網站主要用來記錄：
+      - C++
+      - Python
+      - JavaScript 
+      - R Language
 
-      - AI 學習與實作
-      - 程式設計筆記
-      - 技術研究心得
-      - 開發工具分享
-      - 工作與學習紀錄
-
-      我之後可能會分享內容，
-      但不是現在。
 
     skills:
       enable: true
 
-      title: "目前關注的課程"
+      title: "目前正在學習"
 
       items:
         - "Calculus"
         - "Linear Algebra"
-        - "Python"
-        - "GitHub"
         - "Linux"
-        - "R Language"
         - "CTF"
-        - "???"
+
 
   experience:
     enable: false
