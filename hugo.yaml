@@ -166,7 +166,7 @@ params:
       path: "blogs"
       count: 5
       title: "最新文章"
-      enable: true
+      enable: false
       disableFeaturedImage: false
 
     socialNetworks:
