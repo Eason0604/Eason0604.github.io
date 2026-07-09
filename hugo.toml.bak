@@ -1,4 +1,0 @@
-baseURL = "https://eason0604.github.io/"
-languageCode = "zh-tw"
-title = "Eason Blog"
-theme = "hugo-profile"
