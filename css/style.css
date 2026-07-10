@@ -3,18 +3,86 @@ body {
     max-width: 900px;
     margin: auto;
     padding: 20px;
+    background-color: #f5ebe0;
 }
 
 nav {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 nav a {
-    margin-right: 15px;
+    font-size: 30px;
     text-decoration: none;
-    color: blue;
+    color: #f5ebe0;
+    margin: 15px 50px;
+    padding: 10px 15px; 
+    border: 2px solid black;
+    background-color: black;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    border: 2px solid midnightblue;
+    background-color: midnightblue;
+}
+
+.myName{
+    text-align: center;
+    font-size: 45px;
+}
+
+.myIntro{
+    text-align: center;
+    font-size: 30px;
+}
+
+.logo{
+    width: 40px;
+}
+
+.list-container{
+    text-align: center;
+}
+
+.list_title{
+    font-size: 45px;
+}
+
+.my_list{
+    display: inline-block;
+    font-size: 30px;
+}
+
+.blog_frame{
+    text-align: center;
+    font-size: 30px;
+    width: 500px;
+    margin: 100px auto;
+    padding: 10px 15px; 
+    border: 2px solid black;
+    background-color: black;
+    text-align: center;
+}
+
+.blog_frame a{
+    display: block;
+    text-decoration: none;
+    color: #f5ebe0;
+}
+
+.blog_frame:hover {
+    border: 2px solid midnightblue;
+    background-color: midnightblue;
+}
+
+.about_blog_figure{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.about_blog_img{
+    width:60%;
 }
